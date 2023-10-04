@@ -1,0 +1,67 @@
+.container {
+    display: flex;
+    height: 100vh; /* Set the container's height to 100% of the viewport height */
+  }
+
+  .left-div,
+  .right-div {
+    flex: 1; /* Make both divs take up equal space within the container */
+    border: 1px solid #ccc;
+    box-sizing: border-box; /* Ensure padding is included in the width */
+  }
+  
+.divBox {
+  margin: auto;
+  width: 80%;
+  height: fit-content;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+  border: solid #e3e3e3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: 0.3s;
+}
+
+input {
+  margin-left: auto;
+  margin-right: auto;
+  height: 40px;
+  color: black;
+  font-size: 100%;
+  position: relative;
+  margin-top: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 85%;
+  border-radius: 6px;
+  border: solid #e3e3e3;
+}
+
+.divButton {
+    margin-left: auto; margin-right: auto;
+    height: 40px;
+    width: 90%;
+    color: white;
+    font-size: 100%;
+    position: relative;
+    background-color: 	#0096FF;
+    border-radius: 6px;
+    border: solid #e3e3e3;
+    cursor: pointer;
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+
+  .createLabel{
+    font-weight: bold;
+    font-size: small;
+    margin-bottom: 0;
+  }

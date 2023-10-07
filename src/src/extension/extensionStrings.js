@@ -1,0 +1,1 @@
+export const url_path = "https://localhost:7134/"
